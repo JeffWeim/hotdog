@@ -1,0 +1,44 @@
+#grid {
+	.row {
+	   overflow: hidden;
+	   margin-left: -1rem;
+	   margin-right: -1rem;
+	   height: auto;
+	}
+
+	.box {
+	   float: left;
+	   position: relative;
+	   width: 16.9vw;
+	   height: 16.7vw;
+	}
+
+	.box img {
+	   width: 100%;
+	}
+
+	.instagram-tag {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 9999;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+}
+
+.overlay1 {
+    width: 101%;
+    height: 17rem;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.74), transparent);
+}
+
+@media (max-width: 768px) {
+	.overlay1 {
+		height: 135px;
+	}
+}

@@ -1,0 +1,44 @@
+#information {
+	background-color: $infoBackground;
+
+	.information-wrapper {
+		.information-hotdog-icon,
+		.information-text,
+		.information-button {
+			display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
+	}
+
+	.information-text {
+		font-size: 2.4rem;
+		font-weight: 100;
+		font-family: $openSansLight;
+		color: #555559;
+		padding: 0 0 3rem 0;
+		text-align: center;
+	    margin: 0 auto;
+    	width: 75%;
+	}
+
+	.information-button {
+		padding-bottom: 8rem;
+
+		button {
+		    height: 4rem;
+		    width: 15rem;
+		    background-color: #286782;
+		    color: white;
+		    font-family: $openSansSemibold;
+		    border: none;
+		    border-radius: 8px;
+		    font-size: 1rem;
+		}
+	}
+
+	.information-hotdog-icon {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
+	}
+}

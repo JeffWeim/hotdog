@@ -1,0 +1,22 @@
+// Variables
+@import 'variables';
+
+*,
+html, body {
+   // height: 100%;
+}
+
+body, p {
+	margin: 0;
+}
+
+h2 {
+	font-family: $openSansLight;
+}
+
+// Partials
+@import 'partials/grid';
+@import 'partials/navigation';
+@import 'partials/information';
+@import 'partials/content';
+@import 'partials/footer';
