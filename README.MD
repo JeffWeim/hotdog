@@ -7,6 +7,6 @@ __Notes:__
 * It makes use of flexbox for the responsive layout of the page
 
 __How To Build:__
-1. git clone
-2. npm install
-3. gulp build
+ 1. git clone
+ 2. npm install
+ 3. gulp build
